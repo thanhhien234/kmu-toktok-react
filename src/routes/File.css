@@ -35,7 +35,9 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
+.file-table th:nth-child(3){
+  text-align: center;
+}
 .file-table thead th {
   text-align: left;
   padding: 10px 0;
