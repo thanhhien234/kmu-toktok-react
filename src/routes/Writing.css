@@ -45,6 +45,15 @@
     align-items: center;
     justify-content: center;
 }
+.save-button:disabled {
+    cursor: not-allowed;
+}
+.save-button.short-content {
+    color: rgba(0, 24, 50, 0.14);
+    background-color: white;
+    cursor: not-allowed; 
+    border: 1px solid rgba(0, 24, 50, 0.14);
+}
 .feedback-guide {
     font-size: 14px;
     color: #444444;
